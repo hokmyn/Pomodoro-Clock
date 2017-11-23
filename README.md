@@ -1,1 +1,2 @@
-# Pomodoro-Clock
+# FreeCodeCamp's project
+## Pomodoro-Clock
