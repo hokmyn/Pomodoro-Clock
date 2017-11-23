@@ -1,0 +1,74 @@
+html body {
+  padding: 10px;
+  background-color: #D5D5D5;
+  color: #fff;
+}
+#wrapper {
+	width:600px;
+}
+.container .header {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 30px;
+  color: #EA0000;
+  margin-bottom: 20px;
+}
+#settings {
+  margin-bottom: 40px;
+  position: relative;
+}
+#settings button {
+  outline: none;
+}
+#session{
+  padding-right: 10px;  
+}
+#break {
+  padding-left: 10px;  
+}
+#session .setTime {
+  float: right;
+}
+#break .setTime {
+  float: left;
+}
+#session .text, #break .text{
+  font-size: 2rem;  
+  position: absolute;
+  top: 30%;
+  right: 45px;
+}
+#break .text{  
+  left: 45px;
+}
+.setTime {
+  display: inline-block;    
+}
+#sessionTime, #breakTime {
+  font-size: 18px;
+}
+#container {
+  border: 2px solid black;  
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.inner {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 100%;
+  font-size: 36px;  
+}
+
+#type {
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 10px;  
+}
+#timer {
+  margin-bottom: 20px;
+}
+#buttons {
+  color: #000;
+}
